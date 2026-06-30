@@ -1,6 +1,3 @@
-# Inherit common Omni stuff
-$(call inherit-product, vendor/omni/config/common.mk)
-
 # Inherit device specific
 $(call inherit-product, device/tecno/TECNO-KH6/device.mk)
 
